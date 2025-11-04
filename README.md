@@ -41,4 +41,4 @@ Using this project
 - CDN script (v3.4.17): https://cdn.tailwindcss.com/3.4.17
 - Blog — Tailwind CDN UX tips: https://blogs.purecode.ai/tailwind-cdn-how-to-enhance-user-experience-twofold
 - Installation — Vite: https://tailwindcss.com/docs/installation/vite
-- Cours complet Tailwind CSS v4 2025 – YouTube: https://www.youtube.com/watch?v=XXXX (replace XXXX with the actual video ID)
+- Cours complet Tailwind CSS v4 2025 YouTube: https://youtu.be/6biMWgD6_JY?si=ecEIioDE-mn9roaR 
