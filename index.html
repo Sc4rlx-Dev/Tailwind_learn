@@ -1,32 +1,48 @@
-<body class="bg-slate-100 flex items-center justify-center h-screen">
-
-  <div class="max-w-xs bg-white rounded-lg shadow-lg p-6">
-    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-indigo-50 via-white to-blue-100 min-h-screen flex items-center justify-center p-4">
+  <div class="w-full max-w-sm bg-white rounded-xl shadow-xl p-8">
     <div class="flex flex-col items-center">
-
       <img 
-        class="w-24 h-24 rounded-full border-4 border-slate-200"
-        src="https://via.placeholder.com/150" 
+        class="w-28 h-28 rounded-full ring-4 ring-offset-4 ring-offset-white ring-blue-500"
+        src="https://media.licdn.com/dms/image/v2/D5603AQGdlgpGzZMlxA/profile-displayphoto-shrink_800_800/B56ZbTmQ7DHgAo-/0/1747306747025?e=1763596800&v=beta&t=1IRHJ4ggoJ3oGZRfX0vJ5NCZanTuEt38HP_4Gp0wVPs" 
         alt="Profile Picture"
       >
-
-      <h2 class="text-2xl font-semibold text-slate-800 mt-4">
-        SC4rlx-Dev
-    </h2>
-
-      <p class="text-sm text-slate-500 mt-1">
-        Web Developer
+      <h2 class="text-2xl font-bold text-slate-800 mt-6">
+        Sc4rlx-Dev
+      </h2>
+      <p class="text-center text-slate-600 mt-5 text-sm leading-relaxed">
+        I'm learning Tailwind CSS :)
       </p>
-
-      <p class="text-center text-slate-600 mt-4">
-        I'm learning Tailwind CSS 
-      </p>
-
-      <button class="bg-blue-500 text-white px-5 py-2 rounded-full mt-6 font-medium">
+      <div class="flex flex-row justify-center gap-8 mt-6 w-full">
+        <div class="flex flex-col items-center">
+          <span class="font-bold text-slate-800 text-lg">1.2K</span>
+          <span class="text-sm text-slate-500">Followers</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <span class="font-bold text-slate-800 text-lg">250</span>
+          <span class="text-sm text-slate-500">Following</span>
+        </div>
+      </div>
+      <a href="https://www.linkedin.com/in/oussama-er-raoui/"
+         target="_blank" 
+         rel="noopener noreferrer"
+         class="bg-blue-500 text-white px-6 py-2 rounded-full mt-8 font-medium shadow-lg shadow-blue-500/30
+                hover:bg-blue-600 hover:scale-105 transition-all active:scale-100">
         Follow
-      </button>
-
+      </a>
     </div>
   </div>
-
 </body>
+</html>
