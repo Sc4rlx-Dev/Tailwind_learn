@@ -1,9 +1,9 @@
 Tailwind CSS Learning Project
 
-Overview
+## Overview
 This small project demonstrates how to build fast, responsive UIs with Tailwind CSS.
 
-Why Tailwind
+## Why Tailwind
 - Utility-first: compose designs directly in markup
 - Speed: fewer context switches between HTML and CSS
 - Consistency: shared design tokens and scales
@@ -21,12 +21,12 @@ Using this project
     6) Build in watch mode: npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 - If package.json defines scripts (dev/build), use npm run dev or npm run build
 
-Customize
+## Customize
 - Add utility classes directly in HTML for spacing, colors, typography, and layout
 - Extend theme in tailwind.config.js (colors, spacing, fonts)
 - Keep components consistent by extracting class combinations into small templates or components
 
-Resources
+## Resources
 - Docs: https://tailwindcss.com/
 - Video overview: https://www.youtube.com/watch?v=6biMWgD6_JY
 - Tailwind CSS site: https://tailwindcss.com
